@@ -1,0 +1,33 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "> This is sample page",
+  "main": "index.js",
+  "scripts": {
+    "parcel": "parcel client/index.html",
+    "start": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratanhiwale/parcel-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ratanhiwale/parcel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Ratanhiwale/parcel-boilerplate#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-react-app": "^3.1.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4",
+    "morgan": "^1.9.0",
+    "node-sass": "^4.9.2",
+    "parcel-bundler": "^1.9.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

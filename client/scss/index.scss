@@ -1,0 +1,13 @@
+
+$color1 : red;
+$color2:blue;
+
+
+
+body
+{
+    background:$color1;
+    h1{
+        color:$color2;
+    }
+}
